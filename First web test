@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtishal.store - Best Online Store</title>
+    <style>
+        /* Styles for the body and header (unchanged) */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #1976D2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* Styles for the navigation bar */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Styles for the product cards */
+        main {
+            padding: 20px;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-gap: 20px;
+        }
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.2s;
+            overflow: hidden;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .product-card p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #1976D2;
+        }
+        .product-card button {
+            padding: 8px 12px;
+            background-color: #1976D2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.2s;
+        }
+        .product-card button:hover {
+            background-color: #1565C0;
+        }
+
+        /* Styles for the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer h2 {
+            font-size: 24px;
+        }
+
+        /* CSS Animation for the header */
+        @keyframes scaleAnimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        header h2 {
+            animation: scaleAnimation 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Imtishal.store - Best Online Store</h2>
+        <p>Find the Perfect Products Just for You</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    </nav>
+    <main>
+        <section class="product-list">
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="product3.jpg" alt="Product 2">
+                <h3>Product 3</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+                </div>
+             <div class="product-card">
+                <img src="product4.jpg" alt="Product 2">
+                <h3>Product 4</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+                </div>
+             <div class="product-card">
+                <img src="product5.jpg" alt="Product 2">
+                <h3>Product 5</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+                </div>
+             <div class="product-card">
+                <img src="product6.jpg" alt="Product 2">
+                <h3>Product 6</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>About Us</h2>
+            <p>Welcome to Imtishal.store, your one-stop online store for high-quality products.</p>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <p>Email: contact@store.com</p>
+            <p>Phone: 123-456-7890</p>
+            <h2> Feel free to ask for support</h2>
+        </div>
+    </footer>
+</body>
+</html>
